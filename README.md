@@ -2,7 +2,7 @@
 
 A collection of **CrowdStrike Fusion SOAR playbooks** and **Real Time Response (RTR) scripts** used to automate security operations, orchestrate response actions, and perform remote remediation.
 
-This repository is designed mostly for author to keep a journal of playbooks/scripts, but may help SOC teams, incident responders, and automation engineers looking to streamline detection-to-response pipelines using CrowdStrike’s native automation capabilities.
+This repository is designed mostly for the author to keep a journal of playbooks/scripts, but may help SOC teams, incident responders, and automation engineers looking to streamline detection-to-response pipelines using CrowdStrike’s native automation capabilities.
 
 ---
 
