@@ -10,7 +10,7 @@ This repository is designed mostly for the author to keep a journal of playbooks
 
 | Category | Folder |
 |---------|--------|
-| CrowdStrike Fusion SOAR Playbooks | [`/Fusion-Playbooks`](./Fusion-Playbooks) |
+| CrowdStrike Fusion SOAR Playbooks | [`/SOAR-Playbooks`](./SOAR-Playbooks) |
 | CrowdStrike Real Time Response (RTR) Scripts | [`/RTR-Scripts`](./RTR-Scripts) |
 
 ---
