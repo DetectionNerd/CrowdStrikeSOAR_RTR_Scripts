@@ -16,7 +16,7 @@ This repository is designed mostly for the author to keep a journal of playbooks
 ---
 
 ## ⚙️ CrowdStrike Fusion SOAR Playbooks  
-👉 **[View Playbooks](./Fusion-Playbooks)**
+👉 **[View Playbooks](./SOAR-Playbooks)**
 
 Includes sample and production-ready SOAR Playbooks for:
 
