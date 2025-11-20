@@ -1,20 +1,19 @@
-Get-ChildItem "Registry::HKEY_USERS" | 
-    ForEach-Object {
-        $SID = $_.PSChildName
-        $RunMRUPath = "Registry::HKEY_USERS\$SID\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU"
-        
-        if (Test-Path $RunMRUPath) {
-            # Try to get username from SID
-            try {
-                $UserName = (New-Object System.Security.Principal.SecurityIdentifier($SID)).Translate([System.Security.Principal.NTAccount]).Value
-            }
-            catch {
-                $UserName = $SID  # Keep SID if translation fails
-            }
-            
-            $RunMRUValues = Get-ItemProperty -Path $RunMRUPath
-            $RunMRUValues.PSObject.Properties | 
-                Where-Object { $_.Name -match '^[a-z]$' } | 
-                ForEach-Object { Write-Output "$UserName : $($_.Name): $($_.Value)" }
+$UserName = "IKIGAI" 
+$UserName        
+$Path = "$Env:systemdrive\Users\$UserName\AppData\Local\Google\Chrome\User Data\Default\History" 
+        if (-not (Test-Path -Path $Path)) { 
+            Write-Verbose "[!] Could not find Chrome History for username: $UserName" 
+        } 
+        $Regex = '(htt(p|s))://([\w-]+\.)+[\w-]+(/[\w- ./?%&=]*)*?' 
+        $Value = Get-Content -Path "$Env:systemdrive\Users\$UserName\AppData\Local\Google\Chrome\User Data\Default\History"|Select-String -AllMatches $regex |% {($_.Matches).Value} |Sort -Unique 
+        $Value | ForEach-Object { 
+            $Key = $_ 
+            if ($Key -match $Search){ 
+                New-Object -TypeName PSObject -Property @{ 
+                    User = $UserName 
+                    Browser = 'Chrome' 
+                    DataType = 'History' 
+                    Data = $_ 
+                } 
+            } 
         }
-    }
