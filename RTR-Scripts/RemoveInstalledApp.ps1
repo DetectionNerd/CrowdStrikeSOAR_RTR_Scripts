@@ -1,5 +1,5 @@
 Get-Package -Name "<App Name>" | Uninstall-Package –Force
 
-        OR
+OR
 
 Start-Process "msiexec.exe" -ArgumentList "/x {<Prod ID>} /quiet /norestart" -Wait
