@@ -1,3 +1,3 @@
-**- Automate cached credential removal and BitLocker key revocation from a Lost/Stolen Device**
+**- Lost/Stolen Device: automate cached credential removal and BitLocker key revocation**
 
-**- Send a search query based email alert in tabular format**
+**- Email Alert: send a search query based alert in a tabular format**
