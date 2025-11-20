@@ -1,4 +1,4 @@
-$UserName = "IKIGA" 
+$UserName = "IKIGAI" 
 $UserName        
 $Path = "$Env:systemdrive\Users\$UserName\AppData\Local\Microsoft\Edge\User Data\Default\History" 
         if (-not (Test-Path -Path $Path)) { 
