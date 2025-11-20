@@ -2,11 +2,11 @@
 
 **- Script to mass network contain/lift contain using API and PsFalcon**
 
+**- Audit Run Prompt Activity**
+
 **- Script to get Chrome Browsing History**
 
 **- Script to get MS Edge Browsing History**
-
-**- Audit Run Prompt Activity**
 
 **- DisplayMessageToUser**
 
