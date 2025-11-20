@@ -1,5 +1,15 @@
-**- ScriptTitle1**
+**- Script to revoke cached credentials and BitLocker keys from Lost/Stolen Device**
 
-**- ScriptTitle2**
+**- Script to mass network contain/lift contain using API and PsFalcon**
 
-**- ScriptTitle3**
+**- Script to get Chrome Browsing History**
+
+**- Script to get MS Edge Browsing History**
+
+**- Audit Run Prompt Activity**
+
+**- DisplayMessageToUser**
+
+**- List of installed apps**
+
+**- Remove installed apps**
