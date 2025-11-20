@@ -34,7 +34,7 @@
 <img src="https://github.com/DetectionNerd/CrowdStrikeSOAR_RTR_Scripts/blob/main/SOAR-Playbooks/EmailAlerts/PlaybookImages/2.8.png">
 <hr>
 
-<h4><b>7. Action (email alert) → Configure final email alert format (copy and paste <a href="https://github.com/DetectionNerd/CrowdStrikeSOAR_RTR_Scripts/blob/main/SOAR-Playbooks/EmailAlerts/EmailAlertTemplate1.html"> Template 1</a> OR <a href="https://github.com/DetectionNerd/CrowdStrikeSOAR_RTR_Scripts/blob/main/SOAR-Playbooks/EmailAlerts/EmailAlertTemplate2-EmbedLink.html"> Template 2)</a></b></h4>
+<h4><b>7. Action (email alert) → Configure final email alert format (copy and paste <a href="https://github.com/DetectionNerd/CrowdStrikeSOAR_RTR_Scripts/blob/main/SOAR-Playbooks/EmailAlerts/EmailAlertTemplate1.html"> Template 1</a> OR <a href="https://github.com/DetectionNerd/CrowdStrikeSOAR_RTR_Scripts/blob/main/SOAR-Playbooks/EmailAlerts/EmailAlertTemplate2-EmbedLink.html"> Template 2</a>) in the message box</b></h4>
 <img src="https://github.com/DetectionNerd/CrowdStrikeSOAR_RTR_Scripts/blob/main/SOAR-Playbooks/EmailAlerts/PlaybookImages/2.9.png">
 <hr>
 
