@@ -1,5 +1,3 @@
-**- SamplePlaybookTitle1**
+**- Automate cached credential removal and BitLocker key revocation from a Lost/Stolen Device**
 
-**- SamplePlaybookTitle2**
-
-**- SamplePlaybookTitle3**
+**- Send a search query based email alert in tabular format**
