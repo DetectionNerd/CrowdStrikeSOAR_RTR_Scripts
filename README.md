@@ -38,10 +38,5 @@ Contains scripts used for remote remediation through RTR:
 - Malicious file deletion  
 
 
-> Each script folder includes:  
-> - Script description  
-> - Supported OS (Windows, macOS, Linux)  
-> Script Code
-
 ---
 
